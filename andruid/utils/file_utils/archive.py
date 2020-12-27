@@ -11,3 +11,4 @@ class Archive:
         results_dir = normpath(path_join(archive_file_dir, results_dir))
         with ZipFile(self.__file_path, 'r') as zip_file:
             zip_file.extractall(results_dir)
+        return results_dir

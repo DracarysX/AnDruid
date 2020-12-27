@@ -1,5 +1,6 @@
 import setuptools
 
+
 def get_readme():
     with open("README.md", "r") as readme_fd:
         readme_data = readme_fd.read()
